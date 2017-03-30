@@ -2,7 +2,7 @@
 Менеджер (отдел, подчиненные, зп + по 50 за подчененного)
 */
 
-package firm;
+package src;
 
 import java.time.LocalDate;
 

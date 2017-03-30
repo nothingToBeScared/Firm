@@ -1,5 +1,5 @@
 /*
-У каждого сотрудника (firm.Employee) есть имя, фамилия, ставка зарплаты (сумма), его личный
+У каждого сотрудника (src.Employee) есть имя, фамилия, ставка зарплаты (сумма), его личный
 карточный счет (сумма), год поступления на работу, месяц поступления на работу, пол, отдел.
 --
 
@@ -17,7 +17,7 @@
 — Отдел
 */
 
-package firm;
+package src;
 
 import java.time.LocalDate;
 
@@ -145,7 +145,7 @@ class Employee {
     }
     String getPosition() {
         switch (this.getClass().getName()) {
-            case "firm.Manager": return "Начальник отдела";
+            case "src.Manager": return "Начальник отдела";
             case "firm.SalesPerson": return "Менеджер по продаже";
             default: return "Рядовой Сотрудник";
         }

@@ -2,7 +2,7 @@
 Продавец (продажи, зп + 30% от продаж)
 */
 
-package firm;
+package src;
 
 import java.time.LocalDate;
 

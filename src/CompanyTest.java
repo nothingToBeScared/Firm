@@ -1,4 +1,4 @@
-package firm;
+package src;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -22,9 +22,9 @@ class CompanyTest {
         staff[5] = new SalesPerson("Евдокимов", "Дмитрий", "Васильевич", 11_000, 0);
         staff[6] = new Employee("Димитрова", "Светлана", "Борисовна", Sex.valueOf("Жен"), LocalDate.of(1995, 1, 18));
 
-        staff[6].setSalary(12_000);
+        staff[6].setSalary(11_000);
         staff[4].changeSalary(10);
-        staff[5].setBirthday(1991, 2, 28);
+        staff[5].setBirthday(1990, 2, 28);
 
 
         company.addEmployees(staff);

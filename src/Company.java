@@ -12,7 +12,7 @@
 по 2 дня за каждый отработанный месяц) (метод void calcVocations())
  */
 
-package firm;
+package src;
 
 import java.io.IOException;
 import java.time.format.DateTimeFormatter;
